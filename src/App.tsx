@@ -1,10 +1,12 @@
+import Navbar from './components/Navbar'
+import HomePage from './pages/HomePage'
+
 function App() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-slate-950">
-      <h1 className="text-5xl font-bold text-white">
-        Welcome to Outly
-      </h1>
-    </main>
+    <div className="min-h-screen bg-white text-slate-900">
+      <Navbar />
+      <HomePage />
+    </div>
   )
 }
 
